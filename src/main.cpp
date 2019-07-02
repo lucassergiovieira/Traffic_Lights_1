@@ -1,7 +1,7 @@
-#include "trafficlight.hpp"
+#include "Semaforo_Header.hpp"
 
 int main() {
-    event.rise(&timer_on);
-    event.fall(&timer_off);
-    green();
-} 
+    event.rise(&begin);
+    event.fall(&end);
+    button();
+}
